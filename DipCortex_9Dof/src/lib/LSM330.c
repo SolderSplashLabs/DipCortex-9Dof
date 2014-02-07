@@ -455,9 +455,7 @@ uint8_t LSM330_Task( bool actionInt )
 	{
 		if ( actionInt )
 		{
-			// 109.74.195.247
-			//httpPut("www.phaze.co.uk","/dipcortex/log.php", 0x6D4AC3F7);
-			//httpPut("iot.soldersplash.co.uk","/movement.php", 0x6D4AC3F7);
+			// Movement detected
 		}
 
 		if(ReadAccLSM330())
